@@ -1,0 +1,50 @@
+.myBG {
+	height: 100vh;
+	background: url("../Asset/tes.jpg");
+	background-size: cover;
+}
+
+.intro {
+	height: 300px;
+	display: flex;
+	justify-content: end;
+	align-items: end;
+}
+
+.title {
+	font-size: 5rem;
+	font-weight: 500;
+	text-align: center;
+	line-height: 1;
+	text-shadow: 2px 2px black;
+	letter-spacing: 3px;
+}
+
+.trending, .superhero {
+	height: auto;
+	background: url("../Asset/Spiderman.jpeg");
+	
+	background-size: cover;
+	background-clip: content-box;
+}
+
+
+/*.superhero {
+  height: auto;
+  background: url("../Asset/Invasion.jpg");
+  background-size: cover;
+}
+*/
+.movieWrapper {
+}
+
+.movieImage {
+  height: auto;
+  background-color: black;
+  margin: 5px;
+  padding: 8px;
+}
+
+.images {
+  height: 400px;
+}
